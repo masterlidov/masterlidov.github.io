@@ -306,6 +306,7 @@ span.post-read-more a:hover {
 
 .mainheading h1.sitetitle {
     font-family: Righteous;
+    padding-top: 5px;
 }
 
 .mainheading h1.posttitle {
