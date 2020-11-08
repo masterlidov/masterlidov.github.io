@@ -17,9 +17,9 @@
   {% endfor %}
 
   {% if paginator.next_page %}
-    <a class="ml-1 mr-1" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&gt; Вперед</a>
+    <a class="ml-1 mr-1" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Вперед &raquo;</a>
   {% else %}
-    <span>&gt; Вперед</span>
+    <span>Вперед &raquo;</span>
   {% endif %}
 </div>
 {% endif %}
