@@ -18,8 +18,8 @@ authors:
     display_name: sal
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
+    web: 
+    twitter: 
     description: "Бла бла бла"
   john:
     name: Алексей
@@ -28,7 +28,7 @@ authors:
     gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: ordanax@ya.ru
     web: https://vk.com/ordanax
-    twitter: https://twitter.com/wowthemesnet
+    twitter: https://t.me/ordanax
     description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
 
 # Plugins
