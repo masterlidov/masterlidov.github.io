@@ -15,7 +15,7 @@ permalink: /:title/
 authors:
   sal:
     name: sal
-    display_name: sal
+    display_name: salay
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: wowthemesnet@gmail.com
     web: 
@@ -27,7 +27,7 @@ authors:
     avatar: 'assets/images/avatar.webp'
     gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: ordanax@ya.ru
-    web:
+    #web:
     twitter: https://t.me/masterlidov
     description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
 
