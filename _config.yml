@@ -51,7 +51,7 @@ jekyll-archives:
 paginate: 6
 #paginate_path: /page:num/
 #paginate_path: /blog/page:num/
-paginate_path: "/blog/page:num"
+paginate_path: '/blog/:num/'
     
 # Other
 markdown: kramdown
