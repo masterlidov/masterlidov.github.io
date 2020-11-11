@@ -582,19 +582,9 @@ ul.tags li a:hover {
 }
 
 .alertbar input[type="submit"] {
-    background-color: #0069d9;
-    border: 1px solid #138496;
-    color: rgba(255, 255, 255, 1);
-    fill: rgba(255, 255, 255, 1);
-    font-size: 0.85rem;
-    border-radius: 0;
     padding: 4px 10px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    font-weight: 600;
-    height: 34px;
+    height: 37px;
     letter-spacing: 0.5px;
-    cursor: pointer;
 }
 
 .form-control::-webkit-input-placeholder {
