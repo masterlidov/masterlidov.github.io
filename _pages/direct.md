@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: page
 title: Mediumish Template for Jekyll
 permalink: /direct
 comments: true
