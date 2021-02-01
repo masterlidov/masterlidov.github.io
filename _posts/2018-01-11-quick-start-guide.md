@@ -6,6 +6,7 @@ categories: [ Jekyll, tutorial ]
 image: assets/images/12.webp
 featured: true
 hidden: true
+edit: true
 ---
 
 Director Roland Suso Richter's enigmatic psychological thriller (direct to video/DVD) was based upon screenwriter Michael Cooney's own play "Point of Death" - a title that gave away the film's entire plot twist premise.
