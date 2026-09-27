@@ -1,8 +1,14 @@
 (function () {
-  var current = String(new Date().getFullYear());
+  var current = new Date().getFullYear();
   var nodes = document.querySelectorAll('[data-year-start]');
   for (var i = 0; i < nodes.length; i++) {
-    var start = (nodes[i].textContent || '').trim();
-    nodes[i].textContent = start && start !== current ? start + '–' + current : current;
+    var start = parseInt((nodes[i].textContent || '').trim(), 10);
+    if (isNaN(start) || start > current) {
+      nodes[i].textContent = String(current);
+    } else if (start < current) {
+      nodes[i].textContent = start + '–' + current;
+    } else {
+      nodes[i].textContent = String(current);
+    }
   }
 })();
