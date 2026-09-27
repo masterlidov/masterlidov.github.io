@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="MasterLidov">
+  <rect width="64" height="64" rx="12" fill="#202225"/>
+  <rect x="3" y="3" width="58" height="58" rx="10" fill="none" stroke="#2f3237" stroke-width="1.5"/>
+  <path d="M15 48 L15 17 L22.5 17 L32 30.5 L41.5 17 L49 17 L49 48 L42 48 L42 27.5 L34.5 39.5 L29.5 39.5 L22 27.5 L22 48 Z" fill="#ec1c1c"/>
+</svg>
