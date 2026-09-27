@@ -1,120 +1,381 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
 	<channel>
-		<title>GeekTOP</title>
+		<title>MasterLidov - Новости из мира IT</title>
+		<link>https://masterlidov.github.io/</link>
 		<description>Новости электроники, технологий, современных гаджетов, и другая актуальная информация современной IT индустрии</description>
-		<link>/</link>
-		<atom:link href="//feed.xml" rel="self" type="application/rss+xml" />
-		
-			<item>
-				<title>Обзор яркой игровой клавиатуры ASUS ROG Claymore с механическими переключателями</title>
-				<description><![CDATA[
-					<a href="//blog/reviews/2018-01-21-obzor-igrovoj-klaviatury-asus-rog-claymore.html"><img width="100%" src="/images/reviews/2018/2018-01-21-obzor-igrovoj-klaviatury-asus-rog-claymore/1.jpg"></a>
-					Компания ASUS выпустила новую игровую клавиатуру ASUS ROG Claymore - интереснейшее творение компании.
-					]]></description>
-				<pubDate>Sun, 21 Jan 2018 00:00:00 +0700</pubDate>
-				<link>//blog/reviews/2018-01-21-obzor-igrovoj-klaviatury-asus-rog-claymore.html</link>
-				<guid isPermaLink="true">//blog/reviews/2018-01-21-obzor-igrovoj-klaviatury-asus-rog-claymore.html</guid>
-			</item>
-		
-			<item>
-				<title>Графеновые наушники собрали более сотни тысяч долларов на Kickstarter</title>
-				<description><![CDATA[
-					<a href="//blog/electronics/2018-01-21-grafenovye-naushniki-sobrali-dengi-na-kickstarter.html"><img width="100%" src="/images/electronics/2018/2018-01-21-grafenovye-naushniki-sobrali-dengi-na-kickstarter/1.jpg"></a>
-					Поразительная новость - Графеновые наушники собрали более сотни тысяч долларов на Kickstarter
-					]]></description>
-				<pubDate>Sun, 21 Jan 2018 00:00:00 +0700</pubDate>
-				<link>//blog/electronics/2018-01-21-grafenovye-naushniki-sobrali-dengi-na-kickstarter.html</link>
-				<guid isPermaLink="true">//blog/electronics/2018-01-21-grafenovye-naushniki-sobrali-dengi-na-kickstarter.html</guid>
-			</item>
-		
-			<item>
-				<title>Вскоре выйдет новая камера для Raspberry Pi, которая будет стоить $25</title>
-				<description><![CDATA[
-					<a href="//blog/diy/2018-01-20-novaya-kamera-dlya-raspberry-pi.html"><img width="100%" src="/images/diy/2018/2018-01-20-novaya-kamera-dlya-raspberry-pi/1.jpg"></a>
-					Вышла новая камера для Raspberry Pi, которая должна поступить в продажу уже в ближайшее время.
-					]]></description>
-				<pubDate>Sat, 20 Jan 2018 00:00:00 +0700</pubDate>
-				<link>//blog/diy/2018-01-20-novaya-kamera-dlya-raspberry-pi.html</link>
-				<guid isPermaLink="true">//blog/diy/2018-01-20-novaya-kamera-dlya-raspberry-pi.html</guid>
-			</item>
-		
-			<item>
-				<title>10 удобных решений, хитростей и приемов для использования планшета</title>
-				<description><![CDATA[
-					<a href="//blog/lifehacks/2018-01-20-10-udobnyh-reshenij-dlya-ispolzovaniya-plansheta.html"><img width="100%" src="/images/lifehacks/2018/2018-01-20-10-udobnyh-reshenij-dlya-ispolzovaniya-plansheta/1.jpg"></a>
-					10 лайфхаков помогут приручить самый строптивый планшет и направят все его ресурсы в русло пользы.
-					]]></description>
-				<pubDate>Sat, 20 Jan 2018 00:00:00 +0700</pubDate>
-				<link>//blog/lifehacks/2018-01-20-10-udobnyh-reshenij-dlya-ispolzovaniya-plansheta.html</link>
-				<guid isPermaLink="true">//blog/lifehacks/2018-01-20-10-udobnyh-reshenij-dlya-ispolzovaniya-plansheta.html</guid>
-			</item>
-		
-			<item>
-				<title>HyperX Predator DDR4 RGB с синхронизацией подсветки через ИК</title>
-				<description><![CDATA[
-					<a href="//blog/it-news/2018-01-20-hyperx-predator-ddr4-rgb-s-sinhronizaciej-podsvetki.html"><img width="100%" src="/images/it-news/2018/2018-01-20-hyperx-predator-ddr4-rgb-s-sinhronizaciej-podsvetki/1.jpg"></a>
-					HyperX показала модули памяти серии Predator DDR4 RGB с синхронизацией подсветки через ИК-приемник
-					]]></description>
-				<pubDate>Sat, 20 Jan 2018 00:00:00 +0700</pubDate>
-				<link>//blog/it-news/2018-01-20-hyperx-predator-ddr4-rgb-s-sinhronizaciej-podsvetki.html</link>
-				<guid isPermaLink="true">//blog/it-news/2018-01-20-hyperx-predator-ddr4-rgb-s-sinhronizaciej-podsvetki.html</guid>
-			</item>
-		
-			<item>
-				<title>Обзор материнской платы ASUS ROG MAXIMUS X APEX</title>
-				<description><![CDATA[
-					<a href="//blog/reviews/2018-01-20-obzor-materinskoj-platy-asus-rog-maximus-x-apex.html"><img width="100%" src="/images/reviews/2018/2018-01-03-obzor-materinskoj-platy-asus-rog-maximus-x-apex/1.jpg"></a>
-					Новая материнская плата Asus ROG Maximus X Apex создана для профессионалов - оверклокеров, с учетом всех их пожеланий
-					]]></description>
-				<pubDate>Sat, 20 Jan 2018 00:00:00 +0700</pubDate>
-				<link>//blog/reviews/2018-01-20-obzor-materinskoj-platy-asus-rog-maximus-x-apex.html</link>
-				<guid isPermaLink="true">//blog/reviews/2018-01-20-obzor-materinskoj-platy-asus-rog-maximus-x-apex.html</guid>
-			</item>
-		
-			<item>
-				<title>Обзор материнской платы ASRock Fatal1ty Z370 Gaming-ITX/ac</title>
-				<description><![CDATA[
-					<a href="//blog/reviews/2018-01-20-obzor-materinskoj-platy-asrock-fatal1ty-z370-gaming-itx-ac.html"><img width="100%" src="/images/reviews/2018/2018-01-20-obzor-materinskoj-platy-asrock-fatal1ty-z370-gaming-itx-ac/1.jpg"></a>
-					Обзор новой материнской платы от компани ASRock на LGA1151 Z370 ASRock Fatal1ty Z370 Gaming-ITX
-					]]></description>
-				<pubDate>Sat, 20 Jan 2018 00:00:00 +0700</pubDate>
-				<link>//blog/reviews/2018-01-20-obzor-materinskoj-platy-asrock-fatal1ty-z370-gaming-itx-ac.html</link>
-				<guid isPermaLink="true">//blog/reviews/2018-01-20-obzor-materinskoj-platy-asrock-fatal1ty-z370-gaming-itx-ac.html</guid>
-			</item>
-		
-			<item>
-				<title>Обзор корпуса Deepcool Genome ROG Certified Edition</title>
-				<description><![CDATA[
-					<a href="//blog/reviews/2018-01-20-obzor-korpusa-deepcool-genome-rog-certified-edition.html"><img width="100%" src="/images/reviews/2018/2018-01-02-obzor-korpusa-deepcool-genome-rog-certified-edition/1.jpg"></a>
-					Компания Deepcool представила новый красивый корпус Genome ROG Certified Edition, который понравится многим геймерам
-					]]></description>
-				<pubDate>Sat, 20 Jan 2018 00:00:00 +0700</pubDate>
-				<link>//blog/reviews/2018-01-20-obzor-korpusa-deepcool-genome-rog-certified-edition.html</link>
-				<guid isPermaLink="true">//blog/reviews/2018-01-20-obzor-korpusa-deepcool-genome-rog-certified-edition.html</guid>
-			</item>
-		
-			<item>
-				<title>Новые наушники Cougar Phontum с графеновыми диффузорами</title>
-				<description><![CDATA[
-					<a href="//blog/it-news/2018-01-19-novye-naushniki-cougar-phontum.html"><img width="100%" src="/images/it-news/2018/2018-01-19-novye-naushniki-cougar-phontum/1.jpg"></a>
-					Компания Cougar показала на выставке CES 2018 игровую гарнитуру Phontum с графеновыми диффузорами.
-					]]></description>
-				<pubDate>Fri, 19 Jan 2018 00:00:00 +0700</pubDate>
-				<link>//blog/it-news/2018-01-19-novye-naushniki-cougar-phontum.html</link>
-				<guid isPermaLink="true">//blog/it-news/2018-01-19-novye-naushniki-cougar-phontum.html</guid>
-			</item>
-		
-			<item>
-				<title>Игровые периферийные устройства и аксессуары линейки M800 от Cooler Master</title>
-				<description><![CDATA[
-					<a href="//blog/it-news/2018-01-18-igrovye-periferijnye-ustrojstva-i-aksessuary.html"><img width="100%" src="/images/it-news/2018/2018-01-18-igrovye-periferijnye-ustrojstva-i-aksessuary/1.jpg"></a>
-					На проходящей в эти дни выставке CES 2018 Cooler Master представила игровые периферийные устройства и аксессуары линейки M800
-					]]></description>
-				<pubDate>Thu, 18 Jan 2018 00:00:00 +0700</pubDate>
-				<link>//blog/it-news/2018-01-18-igrovye-periferijnye-ustrojstva-i-aksessuary.html</link>
-				<guid isPermaLink="true">//blog/it-news/2018-01-18-igrovye-periferijnye-ustrojstva-i-aksessuary.html</guid>
-			</item>
-		
+		<language>ru-ru</language>
+		<lastBuildDate>Sun, 21 Jan 2018 00:00:00 GMT</lastBuildDate>
+		<ttl>60</ttl>
+		<atom:link href="https://masterlidov.github.io/rss.xml" rel="self" type="application/rss+xml" />
+		<image><url>https://masterlidov.github.io/img/masterlidov.jpg</url><title>MasterLidov - Новости из мира IT</title><link>https://masterlidov.github.io/</link></image>
+		<item>
+			<title>Инновационный проект тонкого графического калькулятора на базе STM32F4</title>
+			<link>https://masterlidov.github.io/blog/electronics/2018-01-01-innovacionnyj-proekt-tonkogo-kalkulyatora.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/electronics/2018-01-01-innovacionnyj-proekt-tonkogo-kalkulyatora.html</guid>
+			<pubDate>Mon, 01 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Электроника</category>
+			<description><![CDATA[Компания NumWorks совместно с преподавателями разработала инструмент, который может сделать изучение математики, инженерных дисциплин и компьютерных технологий интересным и интуитивно понятным. <a href="https://masterlidov.github.io/blog/electronics/2018-01-01-innovacionnyj-proekt-tonkogo-kalkulyatora.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>TFT-дисплеи Winstar: новинки, характеристики и особенности подключения</title>
+			<link>https://masterlidov.github.io/blog/electronics/2018-01-02-tft-displei-winstar.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/electronics/2018-01-02-tft-displei-winstar.html</guid>
+			<pubDate>Tue, 02 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Электроника</category>
+			<description><![CDATA[Совсем скоро тайваньской компании Winstar (WINSTAR Display Co., Ltd.) исполнится 20 лет. За это время она прошла путь от новичка до одного из лидеров рынка промышленных дисплеев. Сейчас Winstar выпускает дисплеи практически всех возможных типов: TFT, OLED, монохромные TN/STN/FSTN, COG, TAB, VATN LCD. <a href="https://masterlidov.github.io/blog/electronics/2018-01-02-tft-displei-winstar.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Физики охладили наноэлектронный чип до рекордно низкой температуры</title>
+			<link>https://masterlidov.github.io/blog/electronics/2018-01-03-fiziki-ohladili-nanoelektronnyj-chip.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/electronics/2018-01-03-fiziki-ohladili-nanoelektronnyj-chip.html</guid>
+			<pubDate>Wed, 03 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Электроника</category>
+			<description><![CDATA[Минимальную температуру работы наноэлектронных устройств понизили до 2,8 милликельвина. Такой величины удалось добиться в результате охлаждения с помощью адиабатического ядерного размагничивания как самого чипа, так и соединительных элементов. В дальнейшем с помощью подобного подхода можно получить температуры и в 0,1 милликельвина, пишут ученые в статье в Applied Physics Letters <a href="https://masterlidov.github.io/blog/electronics/2018-01-03-fiziki-ohladili-nanoelektronnyj-chip.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Оптоволокно превратили в датчик движения для носимой электроники</title>
+			<link>https://masterlidov.github.io/blog/electronics/2018-01-04-optovolokno-prevratili-v-datchik-dvizheniya.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/electronics/2018-01-04-optovolokno-prevratili-v-datchik-dvizheniya.html</guid>
+			<pubDate>Thu, 04 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Электроника</category>
+			<description><![CDATA[Китайские инженеры разработали оптический датчик движений для носимой электроники. В его основе лежит специальное оптоволокно, чья светопропускающая способность зависит от растяжения. Статья опубликована в журнале Optica. <a href="https://masterlidov.github.io/blog/electronics/2018-01-04-optovolokno-prevratili-v-datchik-dvizheniya.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Австралийцы создали прототип «квантового интернета»</title>
+			<link>https://masterlidov.github.io/blog/electronics/2018-01-05-avstralijcy-sozdali-prototip-kvantovogo-interneta.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/electronics/2018-01-05-avstralijcy-sozdali-prototip-kvantovogo-interneta.html</guid>
+			<pubDate>Fri, 05 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Электроника</category>
+			<description><![CDATA[Австралийские ученые предложили использовать для этого элементы квантовой памяти на основе ионов эрбия, соединенных оптоволоконным кабелем. Время когеренции в такой системе составило более одной секунды, что на 4 порядка больше всех предложенных ранее вариантов. Работа опубликована в Nature Physics. <a href="https://masterlidov.github.io/blog/electronics/2018-01-05-avstralijcy-sozdali-prototip-kvantovogo-interneta.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Создан прототип энергонезависимой памяти для волитроники</title>
+			<link>https://masterlidov.github.io/blog/electronics/2018-01-06-sozdan-prototip-energonezavisimoj-pamyati.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/electronics/2018-01-06-sozdan-prototip-energonezavisimoj-pamyati.html</guid>
+			<pubDate>Sat, 06 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Электроника</category>
+			<description><![CDATA[Ученые из Университета штата Нью-Йорк в Буффало разработала новый метод разделения энергетических уровней электронов в двумерных полупроводниках. <a href="https://masterlidov.github.io/blog/electronics/2018-01-06-sozdan-prototip-energonezavisimoj-pamyati.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Китайский квантовый вычислитель «обогнал» первый компьютер человечества</title>
+			<link>https://masterlidov.github.io/blog/electronics/2018-01-07-kitajskij-kvantovyj-vychislitel.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/electronics/2018-01-07-kitajskij-kvantovyj-vychislitel.html</guid>
+			<pubDate>Sun, 07 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Электроника</category>
+			<description><![CDATA[Физики из Китайского научно-технологического университета (Шанхай), Университета Вюрцбурга и Сент-Эндрюсского университета усовершенствовали работу одного из видов квантовых вычислителей — бозонного сэмплера. <a href="https://masterlidov.github.io/blog/electronics/2018-01-07-kitajskij-kvantovyj-vychislitel.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Huawei и Google сделали мощный одноплатный ARM-компьютер</title>
+			<link>https://masterlidov.github.io/blog/electronics/2018-01-08-huawei-i-google-sdelali-moshhnyj-arm-kompyuter.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/electronics/2018-01-08-huawei-i-google-sdelali-moshhnyj-arm-kompyuter.html</guid>
+			<pubDate>Mon, 08 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Электроника</category>
+			<description><![CDATA[Huawei представила мощный одноплатный компьютер HiKey 960, разработанный совместно с компаниями Google, ARM, Archermind и LeMaker. Об этом сообщает портал PCWorld <a href="https://masterlidov.github.io/blog/electronics/2018-01-08-huawei-i-google-sdelali-moshhnyj-arm-kompyuter.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>D-Wave Systems продали квантовый компьютер четвертого поколения</title>
+			<link>https://masterlidov.github.io/blog/electronics/2018-01-10-d-wave-systems-prodali-kvantovyj-kompyuter.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/electronics/2018-01-10-d-wave-systems-prodali-kvantovyj-kompyuter.html</guid>
+			<pubDate>Wed, 10 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Электроника</category>
+			<description><![CDATA[D-Wave Systems анонсировали выпуск коммерческой версии квантового компьютера четвертого поколения D-Wave 2000Q . <a href="https://masterlidov.github.io/blog/electronics/2018-01-10-d-wave-systems-prodali-kvantovyj-kompyuter.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Графеновые наушники собрали более сотни тысяч долларов на Kickstarter</title>
+			<link>https://masterlidov.github.io/blog/electronics/2018-01-21-grafenovye-naushniki-sobrali-dengi-na-kickstarter.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/electronics/2018-01-21-grafenovye-naushniki-sobrali-dengi-na-kickstarter.html</guid>
+			<pubDate>Sun, 21 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Электроника</category>
+			<description><![CDATA[Стартап Ora Sound запустил на Kickstarter краудфандинговую кампанию по сбору средств на первые накладные наушники с звуковыми мембранами, сделанными из графеновых хлопьев. <a href="https://masterlidov.github.io/blog/electronics/2018-01-21-grafenovye-naushniki-sobrali-dengi-na-kickstarter.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Huawei анонсировала ноутбук MateBook D</title>
+			<link>https://masterlidov.github.io/blog/it-news/2018-01-01-huawei-anonsirovala-noutbuk-matebook-d.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/it-news/2018-01-01-huawei-anonsirovala-noutbuk-matebook-d.html</guid>
+			<pubDate>Mon, 01 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Новости IT</category>
+			<description><![CDATA[Экран встроенного дисплея имеет размер 15,6 дюйма по диагонали и разрешение Full HD (1920×1080 пикселов). Ноутбук оборудован клавиатурой без цифровой секции и большой сенсорной панелью. <a href="https://masterlidov.github.io/blog/it-news/2018-01-01-huawei-anonsirovala-noutbuk-matebook-d.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Jonsbo готовит белую версию процессорного кулера CR-301</title>
+			<link>https://masterlidov.github.io/blog/it-news/2018-01-01-jonsbo-gotovit-beluyu-versiyu-processornogo-kulera.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/it-news/2018-01-01-jonsbo-gotovit-beluyu-versiyu-processornogo-kulera.html</guid>
+			<pubDate>Mon, 01 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Новости IT</category>
+			<description><![CDATA[Как и базовая модель, новинка имеет нестандартную компоновку с двумя расположенными горизонтально секциями радиатора разного размера. Ребра радиатора изготовлены из алюминия. <a href="https://masterlidov.github.io/blog/it-news/2018-01-01-jonsbo-gotovit-beluyu-versiyu-processornogo-kulera.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Портативная колонка АС SVEN PS-465 уже в продаже</title>
+			<link>https://masterlidov.github.io/blog/it-news/2018-01-02-portativnaya-kolonka-as-sven-ps-465-uzhe-v-prodazhe.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/it-news/2018-01-02-portativnaya-kolonka-as-sven-ps-465-uzhe-v-prodazhe.html</guid>
+			<pubDate>Tue, 02 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Новости IT</category>
+			<description><![CDATA[В брутальном дизайне этой модели отчетливо прослеживаются мотивы бумбоксов конца 80-х. Для удобства переноски сверху предусмотрена широкая ручка. <a href="https://masterlidov.github.io/blog/it-news/2018-01-02-portativnaya-kolonka-as-sven-ps-465-uzhe-v-prodazhe.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Игровую мышь SteelSeries Rival 600 оборудовали двумя оптическими сенсорами</title>
+			<link>https://masterlidov.github.io/blog/it-news/2018-01-04-igrovuyu-mysh-steelseries-rival-600.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/it-news/2018-01-04-igrovuyu-mysh-steelseries-rival-600.html</guid>
+			<pubDate>Thu, 04 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Новости IT</category>
+			<description><![CDATA[Отличительная особенность новинки — система регистрации перемещений TrueMove3+, которую глава SteelSeries Эхтишам Раббани (Ehtisham Rabbani) назвал настоящим технологическим прорывом в сфере игровых манипуляторов. <a href="https://masterlidov.github.io/blog/it-news/2018-01-04-igrovuyu-mysh-steelseries-rival-600.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Игровые аксессуары от HyperX на CES 2018</title>
+			<link>https://masterlidov.github.io/blog/it-news/2018-01-07-igrovye-aksessuary-ot-hyperx-na-ces-2018.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/it-news/2018-01-07-igrovye-aksessuary-ot-hyperx-na-ces-2018.html</guid>
+			<pubDate>Sun, 07 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Новости IT</category>
+			<description><![CDATA[HyperX, являющаяся структурным подразделением компании Kingston Technology, представила на выставке CES 2018 сразу несколько игровых устройств: беспроводную гарнитуру Cloud Flight, клавиатуру Alloy Elite RGB и мышь Pulsefire Surge. <a href="https://masterlidov.github.io/blog/it-news/2018-01-07-igrovye-aksessuary-ot-hyperx-na-ces-2018.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>DeepCool анонсировала серийный вариант корпуса Quadstellar</title>
+			<link>https://masterlidov.github.io/blog/it-news/2018-01-08-deepcool-anonsirovala-serijnyj-variant-korpusa-quadstellar.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/it-news/2018-01-08-deepcool-anonsirovala-serijnyj-variant-korpusa-quadstellar.html</guid>
+			<pubDate>Mon, 08 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Новости IT</category>
+			<description><![CDATA[Как утверждают разработчики, такая конструкция позволила обеспечить оптимальные условия для максимально эффективного охлаждения каждого из компонентов системы. <a href="https://masterlidov.github.io/blog/it-news/2018-01-08-deepcool-anonsirovala-serijnyj-variant-korpusa-quadstellar.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Игровые периферийные устройства и аксессуары линейки M800 от Cooler Master</title>
+			<link>https://masterlidov.github.io/blog/it-news/2018-01-18-igrovye-periferijnye-ustrojstva-i-aksessuary.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/it-news/2018-01-18-igrovye-periferijnye-ustrojstva-i-aksessuary.html</guid>
+			<pubDate>Thu, 18 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Новости IT</category>
+			<description><![CDATA[В их числе — клавиатуры MK850 и MK851, гарнитуру MH850, мышь MM830 и коврик MP860. Все новинки оборудованы подсветкой и имеют запоминающийся дизайн. <a href="https://masterlidov.github.io/blog/it-news/2018-01-18-igrovye-periferijnye-ustrojstva-i-aksessuary.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Новые наушники Cougar Phontum с графеновыми диффузорами</title>
+			<link>https://masterlidov.github.io/blog/it-news/2018-01-19-novye-naushniki-cougar-phontum.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/it-news/2018-01-19-novye-naushniki-cougar-phontum.html</guid>
+			<pubDate>Fri, 19 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Новости IT</category>
+			<description><![CDATA[В комплект поставки данной модели входят две пары сменных амбушюров разного размера. Одна из них предназначена для использования в стационарных, а вторая — в мобильных условиях. Амбушюры заполнены мягким вспененным материалом с эффектом памяти. <a href="https://masterlidov.github.io/blog/it-news/2018-01-19-novye-naushniki-cougar-phontum.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>HyperX Predator DDR4 RGB с синхронизацией подсветки через ИК</title>
+			<link>https://masterlidov.github.io/blog/it-news/2018-01-20-hyperx-predator-ddr4-rgb-s-sinhronizaciej-podsvetki.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/it-news/2018-01-20-hyperx-predator-ddr4-rgb-s-sinhronizaciej-podsvetki.html</guid>
+			<pubDate>Sat, 20 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Новости IT</category>
+			<description><![CDATA[HyperX, являющаяся структурным подразделением компании Kingston Technology, представила первые в отрасли модули памяти, в которых применена беспроводная система синхронизации подсветки посредством ИК-излучения. <a href="https://masterlidov.github.io/blog/it-news/2018-01-20-hyperx-predator-ddr4-rgb-s-sinhronizaciej-podsvetki.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Обзор игровой клавиатуры Cougar 300K</title>
+			<link>https://masterlidov.github.io/blog/reviews/2018-01-04-obzor-igrovoj-klaviatury-cougar-300k.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/reviews/2018-01-04-obzor-igrovoj-klaviatury-cougar-300k.html</guid>
+			<pubDate>Thu, 04 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Обзоры</category>
+			<description><![CDATA[Немецкое подразделение тайваньской компании HEС Group, которое было образовано в 2007 году, продолжает радовать своих почитателей новой продукцией, в особенности оригинальными, интересными клавиатурами. Качественная немецкая разработка в сочетании со стабильным производством, позволило изделиям под маркой Cougar завоевать не только азиатские, но и европейские рынки. В данной статье речь пойдет об одном из интересных продуктов — игровой клавиатуре Cougar 300K. Cougar 300K — это, без ложной скромности, революционная игровая клавиатура с ножничным типом переключателей, имеющая полнопрофильные кла <a href="https://masterlidov.github.io/blog/reviews/2018-01-04-obzor-igrovoj-klaviatury-cougar-300k.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Обзор блока питания Chieftec GPE-700S на 700W</title>
+			<link>https://masterlidov.github.io/blog/reviews/2018-01-05-obzor-bloka-pitaniya-chieftec-gpe-700s-na-700w.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/reviews/2018-01-05-obzor-bloka-pitaniya-chieftec-gpe-700s-na-700w.html</guid>
+			<pubDate>Fri, 05 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Обзоры</category>
+			<description><![CDATA[Модель блока питания GPE-700S является старшей в новой серии ECO и рассчитана на широкий спектр персональных компьютеров — от начального до игрового уровня. Как видно из названия, новая серия позиционируется как экономичная, однако во всех ее устройствах есть практически все, что необходимо: защита от напряжения (как перенапряжения, так и падения) и высокого тока, короткого замыкания и перегрузки. Еще не хватает отстегивающихся кабелей. Но и это некритично, так как длина шлейфов дает возможность сделать удобную и грамотную разводку проводов. <a href="https://masterlidov.github.io/blog/reviews/2018-01-05-obzor-bloka-pitaniya-chieftec-gpe-700s-na-700w.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Обзор очков виртуальной реальности HIPER VRX</title>
+			<link>https://masterlidov.github.io/blog/reviews/2018-01-06-obzor-ochkov-virtualnoj-realnosti-hiper-vrx.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/reviews/2018-01-06-obzor-ochkov-virtualnoj-realnosti-hiper-vrx.html</guid>
+			<pubDate>Sat, 06 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Обзоры</category>
+			<description><![CDATA[Перед тем как поближе познакомится с очками HIPER VRX, в нескольких словах расскажем о самой технологии «виртуальности», на которой базируется это устройство. В наше непростое время на рынке представлена масса различных гаджетов, которые предназначены для создания виртуального пространства для пользователя. К ним относятся шлемы виртуальной реальности, очки виртуальной реальности для ПК, очки виртуальной реальности для смартфонов, универсальные/специализированные очки виртуальной реальности и очки с эффектом 3D. <a href="https://masterlidov.github.io/blog/reviews/2018-01-06-obzor-ochkov-virtualnoj-realnosti-hiper-vrx.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Обзор игровой мыши ThunderX3 TM50</title>
+			<link>https://masterlidov.github.io/blog/reviews/2018-01-07-obzor-igrovoj-myshi-thunderx3-tm50.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/reviews/2018-01-07-obzor-igrovoj-myshi-thunderx3-tm50.html</guid>
+			<pubDate>Sun, 07 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Обзоры</category>
+			<description><![CDATA[Несмотря на то, что компания была основана всего пятнадцать лет назад, она успела завоевать сердца своими инновационными решениями и уникальным дизайном, который полюбили геймеры. Очевидно поэтому компания AeroCool решила создать новую линейку своих продуктов, выпускаемых под маркой ThunderX3, которая предназначена в первую очередь именно для заядлых компьютерных игроков. А что в первую очередь необходимо геймеру? <a href="https://masterlidov.github.io/blog/reviews/2018-01-07-obzor-igrovoj-myshi-thunderx3-tm50.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Обзор мыши Genius GX Scorpion M6-600</title>
+			<link>https://masterlidov.github.io/blog/reviews/2018-01-08-obzor-myshi-genius-gx-scorpion-m6-600.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/reviews/2018-01-08-obzor-myshi-genius-gx-scorpion-m6-600.html</guid>
+			<pubDate>Mon, 08 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Обзоры</category>
+			<description><![CDATA[Основная черта всех без исключения устройств Genius — это максимально возможная функциональность за весьма небольшие деньги. Такая возможность является, вероятно, следствием того, что компания практически не ведет собственных исследовательских работ, предпочитая им сотрудничество с лидерами компьютерных технологий — Hewlett Packard, Philips, Siemens, Microsoft. Впрочем, это не помешало зарегистрировать на свое имя уже более 100 патентов. <a href="https://masterlidov.github.io/blog/reviews/2018-01-08-obzor-myshi-genius-gx-scorpion-m6-600.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Обзор корпуса Deepcool Genome ROG Certified Edition</title>
+			<link>https://masterlidov.github.io/blog/reviews/2018-01-20-obzor-korpusa-deepcool-genome-rog-certified-edition.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/reviews/2018-01-20-obzor-korpusa-deepcool-genome-rog-certified-edition.html</guid>
+			<pubDate>Sat, 20 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Обзоры</category>
+			<description><![CDATA[Летом текущего года мы тестировали корпус Deepcool Dukase Liquid, отличительной особенностью которого является встроенная система жидкостного охлаждения для процессора Deepcool Captain 240 EX. Попытка объединить корпус и СЖО в одном комплекте, избавив покупателя от необходимости самостоятельной сборки, оказалась не слишком удачной из-за неграмотной организации внутренней вентиляции в Dukase Liquid и глухой передней стенки. Тем не менее с коммерческой точки зрения данная модель корпуса до сих пор кажется нам привлекательной. <a href="https://masterlidov.github.io/blog/reviews/2018-01-20-obzor-korpusa-deepcool-genome-rog-certified-edition.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Обзор материнской платы ASRock Fatal1ty Z370 Gaming-ITX/ac</title>
+			<link>https://masterlidov.github.io/blog/reviews/2018-01-20-obzor-materinskoj-platy-asrock-fatal1ty-z370-gaming-itx-ac.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/reviews/2018-01-20-obzor-materinskoj-platy-asrock-fatal1ty-z370-gaming-itx-ac.html</guid>
+			<pubDate>Sat, 20 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Обзоры</category>
+			<description><![CDATA[Как правило, материнские платы форматов mini- и micro- не делают на базе наборов системной логики, находящихся на вершине каждой серии, поскольку всё равно приходится отказываться от отдельных контроллеров и портов, то есть все ресурсы дорогих чипсетов попросту не будут задействованы. Но порой бывают и исключения, и одну из таких плат мы сегодня протестируем. Это будет модель ASRock Fatal1ty Z370 Gaming-ITX/ac, входящая в серию плат имени известного киберспортсмена Джонатана Уэндела, так же известного под ником Fatal1ty. <a href="https://masterlidov.github.io/blog/reviews/2018-01-20-obzor-materinskoj-platy-asrock-fatal1ty-z370-gaming-itx-ac.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Обзор материнской платы ASUS ROG MAXIMUS X APEX</title>
+			<link>https://masterlidov.github.io/blog/reviews/2018-01-20-obzor-materinskoj-platy-asus-rog-maximus-x-apex.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/reviews/2018-01-20-obzor-materinskoj-platy-asus-rog-maximus-x-apex.html</guid>
+			<pubDate>Sat, 20 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Обзоры</category>
+			<description><![CDATA[Для создания этой материнской платы, компания ASUS привлекла профессиональных оверклокеров, учтя их пожелания и внедрив в свое творение новые оригинальные идеи. Результатом этого сотрудничества явилась плата ASUS ROG Maximus X Apex. Она основана на новом чипсете Intel Z370, поддерживающим установку процессоров 8-го поколения Coffee Lake для уже привычного разъема 1151. В ней все сделано для того, чтобы любители разгона смогли выжать из конструктива все возможное и невозможное. <a href="https://masterlidov.github.io/blog/reviews/2018-01-20-obzor-materinskoj-platy-asus-rog-maximus-x-apex.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Обзор яркой игровой клавиатуры ASUS ROG Claymore с механическими переключателями</title>
+			<link>https://masterlidov.github.io/blog/reviews/2018-01-21-obzor-igrovoj-klaviatury-asus-rog-claymore.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/reviews/2018-01-21-obzor-igrovoj-klaviatury-asus-rog-claymore.html</guid>
+			<pubDate>Sun, 21 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Обзоры</category>
+			<description><![CDATA[В 2015 году была анонсирована игровая клавиатура с жестким основанием и клавишами Cherry MX, которая способна выдержать любые испытания нелегкой геймерской судьбы. Но любителям игр пришлось ждать еще год, чтобы не только подержать, но и приобрести в пользование это интереснейшее творение конструкторов компании — ASUS ROG Claymore. Свое название она получила в честь шотландского двуручного меча, относящегося к позднему Средневековью и изначально называвшемуся «claidheamh-Mor», или просто Большой Меч. Свое нынешнее название «Claymore» он приобрел уже позднее — в конце XVIII — начале XIX веков. <a href="https://masterlidov.github.io/blog/reviews/2018-01-21-obzor-igrovoj-klaviatury-asus-rog-claymore.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>10 способов применения магнитов в быту</title>
+			<link>https://masterlidov.github.io/blog/lifehacks/2018-01-01-10-sposobov-primeneniya-magnitov-v-bytu.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/lifehacks/2018-01-01-10-sposobov-primeneniya-magnitov-v-bytu.html</guid>
+			<pubDate>Mon, 01 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Лайфхаки</category>
+			<description><![CDATA[Обыкновенную отвертку можно протюнинговать, прикрепив к ее металлической части небольшой магнит. Теперь гвозди и саморезы будут сами держаться на острие. Преимущества намагниченной отвертки вы наверняка оцените. <a href="https://masterlidov.github.io/blog/lifehacks/2018-01-01-10-sposobov-primeneniya-magnitov-v-bytu.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Как выбрать размер диагонали ТВ</title>
+			<link>https://masterlidov.github.io/blog/lifehacks/2018-01-01-kak-vybrat-razmer-diagonali-tv.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/lifehacks/2018-01-01-kak-vybrat-razmer-diagonali-tv.html</guid>
+			<pubDate>Mon, 01 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Лайфхаки</category>
+			<description><![CDATA[Изображение, позволяющее выбрать диагональ ТВ <a href="https://masterlidov.github.io/blog/lifehacks/2018-01-01-kak-vybrat-razmer-diagonali-tv.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>10 полезных советов по использованию мобильного телефона</title>
+			<link>https://masterlidov.github.io/blog/lifehacks/2018-01-02-10-poleznyh-sovetov-po-ispolzovaniyu-mobilnogo-telefona.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/lifehacks/2018-01-02-10-poleznyh-sovetov-po-ispolzovaniyu-mobilnogo-telefona.html</guid>
+			<pubDate>Tue, 02 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Лайфхаки</category>
+			<description><![CDATA[Если телефон намок, возьмите герметично закрывающийся пакет и насыпьте в него рис. Положите в рисовое SPA смартфон, достав из него сим-карту и аккумулятор. Плотно закройте пакет и оставьте на 24 часа, чтобы рис впитал влагу. В 60% случаев телефон заводится и дает возможность сделать нужные звонки и перенести с него важную информацию. <a href="https://masterlidov.github.io/blog/lifehacks/2018-01-02-10-poleznyh-sovetov-po-ispolzovaniyu-mobilnogo-telefona.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>10 лайфхаков с батарейками - на что способны батарейки?</title>
+			<link>https://masterlidov.github.io/blog/lifehacks/2018-01-03-10-lajfhakov-s-batarejkami.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/lifehacks/2018-01-03-10-lajfhakov-s-batarejkami.html</guid>
+			<pubDate>Wed, 03 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Лайфхаки</category>
+			<description><![CDATA[Люди делятся на два типа. Одни даже в мороз чувствуют себя комфортно. Другие мерзнут в середине июля. Если проблема холодных рук вам знакома не понаслышке, держите под рукой, а вернее – в руках, мини-обогреватель из батареек. Оберните батарейку фольгой, закрепив ее на полюсах-контактах. Зажмите полюса – и наслаждайтесь теплом. Перед тем как взять мини-обогреватели с собой, убедитесь, что батарейки заряжены. <a href="https://masterlidov.github.io/blog/lifehacks/2018-01-03-10-lajfhakov-s-batarejkami.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>10 геометрических полок для придания оригинальности интерьеру</title>
+			<link>https://masterlidov.github.io/blog/lifehacks/2018-01-04-10-geometricheskih-polok.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/lifehacks/2018-01-04-10-geometricheskih-polok.html</guid>
+			<pubDate>Thu, 04 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Лайфхаки</category>
+			<description><![CDATA[Раз, два, и готово! На стене такая геометрическая полка выглядит как крутой постер. <a href="https://masterlidov.github.io/blog/lifehacks/2018-01-04-10-geometricheskih-polok.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>9 необычных способов использования канцелярского скотча</title>
+			<link>https://masterlidov.github.io/blog/lifehacks/2018-01-05-9-neobychnyh-sposobov-ispolzovaniya-kancelyarskogo-skotcha.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/lifehacks/2018-01-05-9-neobychnyh-sposobov-ispolzovaniya-kancelyarskogo-skotcha.html</guid>
+			<pubDate>Fri, 05 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Лайфхаки</category>
+			<description><![CDATA[Когда нет никакой возможности вычистить мерзкие крошки, завалившиеся между кнопками клавиатуры, на помощь придет липкая лента. Проведи липкой стороной ленты по щелям между кнопками клавиатуры. Весь мусор прилипнет к скотчу. <a href="https://masterlidov.github.io/blog/lifehacks/2018-01-05-9-neobychnyh-sposobov-ispolzovaniya-kancelyarskogo-skotcha.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Как день начнешь, так его и проведешь. 10 лайфхаков для бодрого утра</title>
+			<link>https://masterlidov.github.io/blog/lifehacks/2018-01-07-kak-den-nachnesh-tak-ego-i-provedesh.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/lifehacks/2018-01-07-kak-den-nachnesh-tak-ego-i-provedesh.html</guid>
+			<pubDate>Sun, 07 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Лайфхаки</category>
+			<description><![CDATA[Если с вечера не распланировать завтрашний день, утром может показаться, что торопиться некуда, и можно еще поваляться. План поднимет с кровати быстрее будильника и позволит приступать к делам практически сразу, не тратя драгоценное время на лишнюю суету <a href="https://masterlidov.github.io/blog/lifehacks/2018-01-07-kak-den-nachnesh-tak-ego-i-provedesh.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Эко-дизайн своими руками. 8 идей использования в интерьере ящиков</title>
+			<link>https://masterlidov.github.io/blog/lifehacks/2018-01-09-eko-dizajn-svoimi-rukami.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/lifehacks/2018-01-09-eko-dizajn-svoimi-rukami.html</guid>
+			<pubDate>Tue, 09 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Лайфхаки</category>
+			<description><![CDATA[Первое и самое очевидное применение ящиков – это хранение в них разных вещей. Объединив несколько ящиков, получите большой и функциональный стеллаж. Вопрос с эстетикой легко решить банкой или баллончиком с краской (здесь и далее). <a href="https://masterlidov.github.io/blog/lifehacks/2018-01-09-eko-dizajn-svoimi-rukami.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>10 удобных решений, хитростей и приемов для использования планшета</title>
+			<link>https://masterlidov.github.io/blog/lifehacks/2018-01-20-10-udobnyh-reshenij-dlya-ispolzovaniya-plansheta.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/lifehacks/2018-01-20-10-udobnyh-reshenij-dlya-ispolzovaniya-plansheta.html</guid>
+			<pubDate>Sat, 20 Jan 2018 00:00:00 GMT</pubDate>
+			<category>Лайфхаки</category>
+			<description><![CDATA[Проснулся поварской талант? Планшет с книгой рецептов в руки и готовим! А чтобы не заляпать девайс, повесьте его с помощью чехла на вешалку, а вешалку – на ручку шкафчика. Для надежности скрепите конструкцию канцелярской резинкой или прищепками. <a href="https://masterlidov.github.io/blog/lifehacks/2018-01-20-10-udobnyh-reshenij-dlya-ispolzovaniya-plansheta.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Raspberry Pi 3 получит официальную поддержку Android</title>
+			<link>https://masterlidov.github.io/blog/diy/2018-01-01-raspberry-pi-3-poluchit-oficialnuyu-podderzhku-android.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/diy/2018-01-01-raspberry-pi-3-poluchit-oficialnuyu-podderzhku-android.html</guid>
+			<pubDate>Mon, 01 Jan 2018 00:00:00 GMT</pubDate>
+			<category>DIY</category>
+			<description><![CDATA[В репозитории Android Open Source Project (AOSP) было замечено появление новой ветки, специально созданной для Raspberry Pi 3. В основном эта секция репозитория посвящена устройствам Nexus, так что увидеть в AOSP сторонний девайс – довольно необычно. Пока ветка Pi 3 пуста, однако вскоре должна начать наполняться кодом. <a href="https://masterlidov.github.io/blog/diy/2018-01-01-raspberry-pi-3-poluchit-oficialnuyu-podderzhku-android.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Автор лазерного дробовика собрал световой меч</title>
+			<link>https://masterlidov.github.io/blog/diy/2018-01-03-avtor-lazernogo-drobovika-sobral-svetovoj-mech.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/diy/2018-01-03-avtor-lazernogo-drobovika-sobral-svetovoj-mech.html</guid>
+			<pubDate>Wed, 03 Jan 2018 00:00:00 GMT</pubDate>
+			<category>DIY</category>
+			<description><![CDATA[На достигнутом он решил не останавливаться и, вдохновившись выходом на экраны кинотеатров седьмого эпизода «Звездных войн», сконструировал почти настоящий световой меч. <a href="https://masterlidov.github.io/blog/diy/2018-01-03-avtor-lazernogo-drobovika-sobral-svetovoj-mech.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Направленная WiFi-антенна из ложки и детской бутылочки</title>
+			<link>https://masterlidov.github.io/blog/diy/2018-01-04-napravlennaya-wifi-antenna.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/diy/2018-01-04-napravlennaya-wifi-antenna.html</guid>
+			<pubDate>Thu, 04 Jan 2018 00:00:00 GMT</pubDate>
+			<category>DIY</category>
+			<description><![CDATA[В таких случаях единственный вариант подключения — использовать направленную WiFi-антенну для усиления сигнала. С её помощью можно подключиться к далёким хотспотам и заметно улучшить качество сигнала. В интернете есть разные инструкции по сборке направленных WiFi-антенн, но вряд ли кто-то додумался до такого примитивного решения, как у программиста Кристофера Коннелла (Christopher Connell), которого судьба несколько лет назад занесла в Таиланд, где интернет в то время был довольно дорогой и по паспорту. <a href="https://masterlidov.github.io/blog/diy/2018-01-04-napravlennaya-wifi-antenna.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Как сделать диджейский пульт из кассетного плеера своими руками</title>
+			<link>https://masterlidov.github.io/blog/diy/2018-01-05-didzhejskij-pult-iz-kassetnogo-pleera.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/diy/2018-01-05-didzhejskij-pult-iz-kassetnogo-pleera.html</guid>
+			<pubDate>Fri, 05 Jan 2018 00:00:00 GMT</pubDate>
+			<category>DIY</category>
+			<description><![CDATA[Оказывается, похожего эффект можно достигнуть, используя детали старого кассетного аудиоплеера, что и продемонстрировал инженер и аудиофил Джереми Белл (Jeremy Bell). Он разработал установку Scrubboard, которая генерирует эффекты не хуже профессионального диджейского пульта. <a href="https://masterlidov.github.io/blog/diy/2018-01-05-didzhejskij-pult-iz-kassetnogo-pleera.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Как сделать Интернет-спидометр на светодиодах и плате BeagleBone</title>
+			<link>https://masterlidov.github.io/blog/diy/2018-01-06-kak-sdelat-internet-spidometr.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/diy/2018-01-06-kak-sdelat-internet-spidometr.html</guid>
+			<pubDate>Sat, 06 Jan 2018 00:00:00 GMT</pubDate>
+			<category>DIY</category>
+			<description><![CDATA[Для изготовления спидометра использовалась плата BeagleBone Black и два модуля Programable Realtime Unit (PRU). Устройство замеряет скорость передачи данных и отображает результат на трёхцветной светодиодной ленте. <a href="https://masterlidov.github.io/blog/diy/2018-01-06-kak-sdelat-internet-spidometr.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Стильный медиаплеер Slice из модуля Raspberry Pi</title>
+			<link>https://masterlidov.github.io/blog/diy/2018-01-07-stilnyj-mediapleer-slice-iz-modulya-raspberry-pi.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/diy/2018-01-07-stilnyj-mediapleer-slice-iz-modulya-raspberry-pi.html</guid>
+			<pubDate>Sun, 07 Jan 2018 00:00:00 GMT</pubDate>
+			<category>DIY</category>
+			<description><![CDATA[Такие модули предназначены для энтузиастов, которые хотят конструировать материнские платы собственного дизайна для специальных приложений. На всякий случай, Raspberry Pi Foundation выпустила и базовую материнскую плату для таких модулей Compute Module IO Board. <a href="https://masterlidov.github.io/blog/diy/2018-01-07-stilnyj-mediapleer-slice-iz-modulya-raspberry-pi.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Лазерная гравировка и 3D-печать пластинок из дерева</title>
+			<link>https://masterlidov.github.io/blog/diy/2018-01-08-lazernaya-gravirovka-i-3d-pechat-plastinok-iz-dereva.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/diy/2018-01-08-lazernaya-gravirovka-i-3d-pechat-plastinok-iz-dereva.html</guid>
+			<pubDate>Mon, 08 Jan 2018 00:00:00 GMT</pubDate>
+			<category>DIY</category>
+			<description><![CDATA[И пусть это будет уже и не винил вовсе, а другие материалы: пластик или дерево. Но всё равно взгляд на эти поделки умельцев погреет душу каждого аудиофила со стажем. <a href="https://masterlidov.github.io/blog/diy/2018-01-08-lazernaya-gravirovka-i-3d-pechat-plastinok-iz-dereva.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Разработчик запустил Slack на Commodore 64</title>
+			<link>https://masterlidov.github.io/blog/diy/2018-01-09-razrabotchik-zapustil-slack-na-commodore-64.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/diy/2018-01-09-razrabotchik-zapustil-slack-na-commodore-64.html</guid>
+			<pubDate>Tue, 09 Jan 2018 00:00:00 GMT</pubDate>
+			<category>DIY</category>
+			<description><![CDATA[Так как у Commodore 64 нет ни USB-C, ни простого USB порта, исследователю пришлось воспользоваться UserPort. Харрис сделал кабель, который одним концом подключается к UserPort, а на другом конце имеет конвертер USB TTL-RS-232, которым исследователь воспользовался для подсоединения Commodore 64 к Raspberry Pi. При помощи одноплатной «Малинки» Commodore 64 соединяется с интернетом. <a href="https://masterlidov.github.io/blog/diy/2018-01-09-razrabotchik-zapustil-slack-na-commodore-64.html">Читать полностью</a>]]></description>
+		</item>
+		<item>
+			<title>Вскоре выйдет новая камера для Raspberry Pi, которая будет стоить $25</title>
+			<link>https://masterlidov.github.io/blog/diy/2018-01-20-novaya-kamera-dlya-raspberry-pi.html</link>
+			<guid isPermaLink="true">https://masterlidov.github.io/blog/diy/2018-01-20-novaya-kamera-dlya-raspberry-pi.html</guid>
+			<pubDate>Sat, 20 Jan 2018 00:00:00 GMT</pubDate>
+			<category>DIY</category>
+			<description><![CDATA[Камера стоила $25 и не могла похвастаться хорошим качеством снимков и видео. 25 апреля 2016 года разработчики наконец-то представили обновленный продукт, получивший 8 Мп датчик. <a href="https://masterlidov.github.io/blog/diy/2018-01-20-novaya-kamera-dlya-raspberry-pi.html">Читать полностью</a>]]></description>
+		</item>
 	</channel>
 </rss>

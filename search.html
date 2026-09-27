@@ -6,46 +6,64 @@
 	<meta charset="utf-8">
 	<base href="/">
 
-	<title>GeekTOP - Новости из мира IT</title>
-	<meta name="description" content="Новости электроники, технологий, современных гаджетов, и другая актуальная информация современной IT индустрии">
+	<title>Поиск по сайту - MasterLidov</title>
+	<meta name="description" content="Поиск по всем материалам сайта MasterLidov: статьи, обзоры, лайфхаки и новости IT.">
+	<meta name="robots" content="noindex, follow">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	
-	<!-- Template Basic Images Start -->
-	<meta property="og:image" content="img/geektop.jpg">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="canonical" href="https://masterlidov.github.io/search.html">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="MasterLidov">
+	<meta property="og:locale" content="ru_RU">
+	<meta property="og:title" content="Поиск по сайту - MasterLidov">
+	<meta property="og:description" content="Поиск по всем материалам сайта MasterLidov: статьи, обзоры, лайфхаки и новости IT.">
+	<meta property="og:url" content="https://masterlidov.github.io/search.html">
+	<meta property="og:image" content="https://masterlidov.github.io/img/masterlidov.jpg">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Поиск по сайту - MasterLidov">
+	<meta name="twitter:description" content="Поиск по всем материалам сайта MasterLidov: статьи, обзоры, лайфхаки и новости IT.">
+	<meta name="twitter:image" content="https://masterlidov.github.io/img/masterlidov.jpg">
+
 	<link rel="icon" href="/img/favicon/favicon.ico">
 	<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon-180x180.png">
-	<!-- Template Basic Images End -->
-	
-	<!-- Custom Browsers Color Start -->
 	<meta name="theme-color" content="#202225">
-	<!-- Custom Browsers Color End -->
 
 	<link rel="stylesheet" href="/css/main.min.css">
+	<style>
+		#search-form{display:flex;gap:10px;margin:0 0 25px}
+		#search-form input[type=search]{flex:1;min-width:0;padding:12px 15px;font-size:16px;border:1px solid #d5d7d8;border-radius:3px}
+		#search-form button{padding:12px 26px;font-size:16px;font-weight:700;color:#fff;background:#ec1c1c;border:0;border-radius:3px;cursor:pointer}
+		#search-form button:hover{background:#c81717}
+		.search-status{margin:0 0 20px;color:#454749}
+		.search-result{padding:14px 0;border-bottom:1px solid #e6e8e9}
+		.search-result:last-child{border-bottom:0}
+		.search-result a{font-size:19px;font-weight:700;line-height:1.25}
+		.search-result .meta{margin:5px 0 0;font-size:13px;color:#7a7d7e}
+		.search-result .snippet{margin:6px 0 0;font-size:15px;line-height:1.45}
+		.search-result mark{background:#fff3a3;padding:0 1px}
+	</style>
 
 </head>
 
-<body class="ishome">
+<body>
 
 <header class="top-line">
 
-	<a href="/" class="logo logo-litera">GeekTOP</a>
+	<a href="/" class="logo logo-litera">MasterLidov</a>
 
 	<div class="search-wrap">
-		<div class="search" title="Поиск по сайту..."><div class="fa fa-search"></div></div>
+		<a href="/search.html" class="search is-active" title="Поиск по сайту..."><div class="fa fa-search"></div></a>
 		<div class="search-field">
 			<form action="/search.html" id="cse-search-box">
-				<input type="hidden" name="cx" value="partner-pub-xxx:xxx" />
-				<input type="hidden" name="cof" value="FORID:10" />
-				<input type="hidden" name="ie" value="UTF-8" />
-				<input type="text" name="q" placeholder="Поиск по сайту..." />
+				<input type="search" name="q" placeholder="Поиск по сайту..." aria-label="Поиск по сайту" autocomplete="off" />
 			</form>
 		</div>
 	</div>
 
 	<div class="mobile-menu-button"><i class="fa fa-bars"></i> Меню</div>
-	<nav class="main-menu top-menu">
+	<nav class="main-menu top-menu" aria-label="Основное меню">
 <ul>
 	<li><a href="/blog/electronics/">Электроника</a></li>
 	<li><a href="/blog/it-news/">Новости IT</a></li>
@@ -58,27 +76,36 @@
 
 </header>
 
+<main>
 	<div class="article-content">
 		<div class="container-fluid">
 			<div class="row">
-
 				<div class="col-md-8">
 
 					<article class="main-article">
 
-						<h2>Результаты поиска:</h2>
+						<h1>Поиск по сайту</h1>
 
 						<div class="article-body">
 
-							<div id="cse-search-results"></div>
-							<script type="text/javascript">
-								var googleSearchIframeName = "cse-search-results";
-								var googleSearchFormName = "cse-search-box";
-								var googleSearchFrameWidth = 800;
-								var googleSearchDomain = "www.google.ru";
-								var googleSearchPath = "/cse";
-							</script>
-							<script type="text/javascript" src="https://www.google.com/afsonline/show_afs_search.js"></script>
+							<form id="search-form" action="/search.html" method="get" role="search">
+								<label class="visually-hidden" for="q">Поисковый запрос</label>
+								<input type="search" id="q" name="q" placeholder="Например: Raspberry Pi" autocomplete="off" />
+								<button type="submit">Найти</button>
+							</form>
+
+							<p class="search-status" id="search-status">Загружаю индекс материалов…</p>
+
+							<div id="search-results"></div>
+
+							<noscript>
+								<p>Для поиска нужен JavaScript. Либо откройте разделы:
+									<a href="/blog/electronics/">Электроника</a>,
+									<a href="/blog/it-news/">Новости IT</a>,
+									<a href="/blog/reviews/">Обзоры</a>,
+									<a href="/blog/lifehacks/">Лайфхаки</a>,
+									<a href="/blog/diy/">DIY</a>.</p>
+							</noscript>
 
 						</div>
 
@@ -87,110 +114,62 @@
 				</div>
 
 				<div class="col-md-4">
-
-<aside class="main-aside">
-
-	<div class="aside-box">
-
-<div class="latest-box">
-
-	<div class="lb-header">Последние статьи:</div>
-
-	<div class="lb-list">
-
-		<div class="lb-item">
-			<a href="/blog/electronics/" class="lb-catname">Электроника</a>
-			<div class="lb-body">
-
-				
-				<a class="lb-item-header" href="/blog/electronics/2018-01-21-grafenovye-naushniki-sobrali-dengi-na-kickstarter.html">Графеновые наушники собрали более сотни тысяч долларов на Kickstarter</a>
-				<div class="lb-footer">
-					
-				</div>
-				
-
-			</div>
-		</div>
-
-		<div class="lb-item">
-			<a href="/blog/it-news/" class="lb-catname">Новости IT</a>
-			<div class="lb-body">
-
-				
-				<a class="lb-item-header" href="/blog/it-news/2018-01-20-hyperx-predator-ddr4-rgb-s-sinhronizaciej-podsvetki.html">HyperX Predator DDR4 RGB с синхронизацией подсветки через ИК</a>
-				<div class="lb-footer">
-					
-				</div>
-				
-
-			</div>
-		</div>
-
-		<div class="lb-item">
-			<a href="/blog/reviews/" class="lb-catname">Обзоры</a>
-			<div class="lb-body">
-
-				
-				<a class="lb-item-header" href="/blog/reviews/2018-01-21-obzor-igrovoj-klaviatury-asus-rog-claymore.html">Обзор яркой игровой клавиатуры ASUS ROG Claymore с механическими переключателями</a>
-				<div class="lb-footer">
-					
-				</div>
-				
-
-			</div>
-		</div>
-
-		<div class="lb-item">
-			<a href="/blog/lifehacks/" class="lb-catname">Лайфхаки</a>
-			<div class="lb-body">
-
-				
-				<a class="lb-item-header" href="/blog/lifehacks/2018-01-20-10-udobnyh-reshenij-dlya-ispolzovaniya-plansheta.html">10 удобных решений, хитростей и приемов для использования планшета</a>
-				<div class="lb-footer">
-					
-				</div>
-				
-
-			</div>
-		</div>
-
-		<div class="lb-item">
-			<a href="/blog/diy/" class="lb-catname">DIY</a>
-			<div class="lb-body">
-
-				
-				<a class="lb-item-header" href="/blog/diy/2018-01-20-novaya-kamera-dlya-raspberry-pi.html">Вскоре выйдет новая камера для Raspberry Pi, которая будет стоить $25</a>
-				<div class="lb-footer">
-					
-				</div>
-				
-
-			</div>
-		</div>
-		
-	</div>
-
-</div>
-
-	</div>
-
-	<div class="aside-box">
-<div id="vk_groups"></div>
-	</div>
-
-</aside>
-
+					<aside class="main-aside">
+						<div class="aside-box">
+							<div class="latest-box">
+								<div class="lb-header">Последние статьи:</div>
+								<div class="lb-list">
+									<div class="lb-item">
+										<a href="/blog/electronics/" class="lb-catname">Электроника</a>
+										<div class="lb-body">
+											<a class="lb-item-header" href="/blog/electronics/2018-01-21-grafenovye-naushniki-sobrali-dengi-na-kickstarter.html">Графеновые наушники собрали более сотни тысяч долларов на Kickstarter</a>
+											<div class="lb-footer"><time class="date" datetime="2018-01-21">21/01/2018</time></div>
+										</div>
+									</div>
+									<div class="lb-item">
+										<a href="/blog/it-news/" class="lb-catname">Новости IT</a>
+										<div class="lb-body">
+											<a class="lb-item-header" href="/blog/it-news/2018-01-20-hyperx-predator-ddr4-rgb-s-sinhronizaciej-podsvetki.html">HyperX Predator DDR4 RGB с синхронизацией подсветки через ИК</a>
+											<div class="lb-footer"><time class="date" datetime="2018-01-20">20/01/2018</time></div>
+										</div>
+									</div>
+									<div class="lb-item">
+										<a href="/blog/reviews/" class="lb-catname">Обзоры</a>
+										<div class="lb-body">
+											<a class="lb-item-header" href="/blog/reviews/2018-01-21-obzor-igrovoj-klaviatury-asus-rog-claymore.html">Обзор яркой игровой клавиатуры ASUS ROG Claymore с механическими переключателями</a>
+											<div class="lb-footer"><time class="date" datetime="2018-01-21">21/01/2018</time></div>
+										</div>
+									</div>
+									<div class="lb-item">
+										<a href="/blog/lifehacks/" class="lb-catname">Лайфхаки</a>
+										<div class="lb-body">
+											<a class="lb-item-header" href="/blog/lifehacks/2018-01-20-10-udobnyh-reshenij-dlya-ispolzovaniya-plansheta.html">10 удобных решений, хитростей и приемов для использования планшета</a>
+											<div class="lb-footer"><time class="date" datetime="2018-01-20">20/01/2018</time></div>
+										</div>
+									</div>
+									<div class="lb-item">
+										<a href="/blog/diy/" class="lb-catname">DIY</a>
+										<div class="lb-body">
+											<a class="lb-item-header" href="/blog/diy/2018-01-20-novaya-kamera-dlya-raspberry-pi.html">Вскоре выйдет новая камера для Raspberry Pi, которая будет стоить $25</a>
+											<div class="lb-footer"><time class="date" datetime="2018-01-20">20/01/2018</time></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</aside>
 				</div>
 
 			</div>
 		</div>
 	</div>
+</main>
 
 	<footer class="main-footer">
-		<div class="contaiter">
+		<div class="container">
 
-			<nav class="main-menu footer-menu">
-	<ul>
+			<nav class="main-menu footer-menu" aria-label="Меню в подвале">
+<ul>
 	<li><a href="/blog/electronics/">Электроника</a></li>
 	<li><a href="/blog/it-news/">Новости IT</a></li>
 	<li><a href="/blog/reviews/">Обзоры</a></li>
@@ -200,9 +179,9 @@
 </ul>
 			</nav>
 
-			<nav class="soc">
+			<nav class="soc" aria-label="RSS">
 				<ul>
-	<li><a href="#"><i class="fa fa-vk"></i></a></li>  <li><a href="#"><i class="fa fa-odnoklassniki"></i></a></li>  <li><a href="/rss.xml"><i class="fa fa-rss"></i></a></li>
+	<li><a href="/rss.xml" title="RSS"><i class="fa fa-rss"></i></a></li>
 				</ul>
 			</nav>
 
@@ -210,20 +189,101 @@
 	</footer>
 	<footer class="bottom-footer">
 		<div class="container text-center">
-			<div class="footer-copy">2018 © <span class="logo-footer logo-litera">GeekTOP.ru</span></div>
-			<p>Копирование контента и размещение на других сайтах запрещено.</p>
+			<div class="footer-copy"><span data-current-year>2026</span> &copy; <span class="logo-footer logo-litera">MasterLidov</span></div>
 		</div>
 	</footer>
 
-	<script src="/js/scripts.min.js"></script>
+	<script src="/js/scripts.min.js" defer></script>
+	<script src="/js/year.js" defer></script>
+	<script>
+	(function () {
+			var input = document.getElementById('q');
+			var status = document.getElementById('search-status');
+			var out = document.getElementById('search-results');
+			var index = null;
 
-	
+			function esc(s) {
+				return s.replace(/[&<>"]/g, function (c) {
+					return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+				});
+			}
 
-	
+			function mark(text, words) {
+				var html = esc(text);
+				words.forEach(function (w) {
+					if (w.length < 2) return;
+					html = html.replace(new RegExp('(' + w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi'), '<mark>$1</mark>');
+				});
+				return html;
+			}
 
-	<script type="text/javascript" src="//vk.com/js/api/openapi.js?152"></script>
-	<script type="text/javascript">
-	VK.Widgets.Group("vk_groups", {mode: 0, width: 'auto,', height: '300', color2: '202222', color3: '202222'}, you_id);
+			function score(item, words) {
+				var title = item.t.toLowerCase();
+				var desc = (item.d || '').toLowerCase();
+				var n = 0;
+				words.forEach(function (w) {
+					var inTitle = title.indexOf(w) !== -1;
+					var inDesc = desc.indexOf(w) !== -1;
+					if (inTitle && inDesc) n += 3;
+					else if (inTitle) n += 2;
+					else if (inDesc) n += 1;
+				});
+				return n;
+			}
+
+			function render(q) {
+				if (!index) return;
+				var words = q.toLowerCase().split(/\s+/).filter(function (w) { return w.length > 1; });
+				if (!words.length) {
+					status.textContent = 'Введите запрос — например «Raspberry Pi», ' + index.length + ' материала в индексе.';
+					out.innerHTML = '';
+					return;
+				}
+				var found = index
+					.map(function (item) { return { item: item, n: score(item, words) }; })
+					.filter(function (r) { return r.n > 0; })
+					.sort(function (a, b) { return b.n - a.n; })
+					.map(function (r) { return r.item; });
+
+				if (!found.length) {
+					status.textContent = 'По запросу «' + q + '» ничего не найдено.';
+					out.innerHTML = '';
+					return;
+				}
+				status.textContent = 'По запросу «' + q + '» найдено: ' + found.length + ' из ' + index.length + ' материалов.';
+				out.innerHTML = found.map(function (item) {
+					var d = item.y ? item.y.split('-').reverse().join('.') : '';
+					return '<div class="search-result">'
+						+ '<a href="' + esc(item.u) + '">' + mark(item.t, words) + '</a>'
+						+ '<p class="meta">' + esc(item.c) + (d ? ' · ' + d : '') + '</p>'
+						+ '<p class="snippet">' + mark(item.d || '', words) + '</p>'
+						+ '</div>';
+				}).join('');
+			}
+
+			function boot() {
+				var q = new URLSearchParams(location.search).get('q') || '';
+				if (q) input.value = q;
+				fetch('/search-index.json')
+					.then(function (r) { return r.json(); })
+					.then(function (data) {
+						index = data;
+						render(q);
+					})
+					.catch(function () {
+						status.textContent = 'Не удалось загрузить индекс поиска. Обновите страницу.';
+					});
+			}
+
+			document.getElementById('search-form').addEventListener('submit', function (e) {
+				e.preventDefault();
+				var q = input.value.trim();
+				history.replaceState(null, '', q ? '/search.html?q=' + encodeURIComponent(q) : '/search.html');
+				render(q);
+			});
+
+			boot();
+		})();
 	</script>
 
 </body>

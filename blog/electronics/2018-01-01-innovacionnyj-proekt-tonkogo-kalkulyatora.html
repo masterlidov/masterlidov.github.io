@@ -6,14 +6,12 @@
 	<meta charset="utf-8">
 	<base href="/">
 
-	<title>Инновационный проект тонкого графического калькулятора на базе STM32F4 | GeekTOP - Новости из мира IT</title>
-	<meta name="description" content="Французская компания привлекла к себе внимание инновационным проектом на микроконтроллете STM32F4 - графическом калькуляторе">
+	<title>Инновационный проект тонкого графического калькулятора на базе STM32F4 - MasterLidov</title>
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<!-- Template Basic Images Start -->
-	<meta property="og:image" content="images/electronics/2018/2018-01-01-innovacionnyj-proekt-tonkogo-kalkulyatora/1.jpg">
 	<link rel="icon" href="/img/favicon/favicon.ico">
 	<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon-180x180.png">
 	<!-- Template Basic Images End -->
@@ -24,13 +22,27 @@
 
 	<link rel="stylesheet" href="/css/main.min.css">
 
+
+	<link rel="canonical" href="https://masterlidov.github.io/blog/electronics/2018-01-01-innovacionnyj-proekt-tonkogo-kalkulyatora.html">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="MasterLidov">
+	<meta property="og:locale" content="ru_RU">
+	<meta property="og:title" content="Инновационный проект тонкого графического калькулятора на базе STM32F4 - MasterLidov">
+	<meta property="og:description" content="Инновационный проект тонкого графического калькулятора на базе STM32F4">
+	<meta property="og:url" content="https://masterlidov.github.io/blog/electronics/2018-01-01-innovacionnyj-proekt-tonkogo-kalkulyatora.html">
+	<meta property="og:image" content="https://masterlidov.github.io/images/electronics/2018/2018-01-01-innovacionnyj-proekt-tonkogo-kalkulyatora/2.jpg">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Инновационный проект тонкого графического калькулятора на базе STM32F4 - MasterLidov">
+	<meta name="twitter:description" content="Инновационный проект тонкого графического калькулятора на базе STM32F4">
+	<meta name="twitter:image" content="https://masterlidov.github.io/images/electronics/2018/2018-01-01-innovacionnyj-proekt-tonkogo-kalkulyatora/2.jpg">
+
 </head>
 
 <body class="ispage">
 
 <header class="top-line">
 
-	<a href="/" class="logo logo-litera">GeekTOP</a>
+	<a href="/" class="logo logo-litera">MasterLidov</a>
 
 	<div class="search-wrap">
 		<div class="search" title="Поиск по сайту..."><div class="fa fa-search"></div></div>
@@ -58,6 +70,8 @@
 
 </header>
 
+<main>
+
 	<header class="page-header overlay" style="background-image: url(images/electronics/2018/2018-01-01-innovacionnyj-proekt-tonkogo-kalkulyatora/1.jpg)">
 
 		<div class="page-header-content">
@@ -67,7 +81,7 @@
 
 						<div class="page-header-meta">
 
-							<a href="/blog/electronics" class="page-category-link">Электроника</a> <span class="date">01/01/2018</span>
+							<a href="/blog/electronics" class="page-category-link">Электроника</a> <time class="date" datetime="2018-01-01">01/01/2018</time>
 
 							<h1>Инновационный проект тонкого графического калькулятора на базе STM32F4</h1>
 
@@ -122,7 +136,7 @@
 
 <p>В эпоху элегантных смартфонов традиционные калькуляторы выглядят как пережиток прошлого. Но данный калькулятор обладает ярким и современным дизайном, отвечающим всем современным трендам. Кроме того, компания раскрыла аппаратную реализацию, операционную систему, приложения и даже добавила интерпретатор языка Python (MicroPython). В результате с помощью этого современного устройства школьники как минимум будут решать проблемы, часто возникающие при изучении алгебры и арифметики, а самые продвинутые начнут изучать программирование и инженерные науки. Они даже смогут самостоятельно напечатать некоторые детали калькулятора на 3D-принтере благодаря внушительному перечню предоставляемой документации. В довершение всего, перед покупкой можно ознакомиться с внешним видом и работой калькулятора, посетив онлайн-симулятор NumWorks (рисунок 1).</p>
 
-<img src="/images/electronics/2018/2018-01-01-innovacionnyj-proekt-tonkogo-kalkulyatora/2.jpg" alt="Рисунок калькулятора 1">
+<img width="400" height="300" loading="lazy" decoding="async" src="/images/electronics/2018/2018-01-01-innovacionnyj-proekt-tonkogo-kalkulyatora/2.jpg" alt="Рисунок калькулятора 1">
 
 <h3>От идеи – к прототипу</h3>
 
@@ -134,7 +148,7 @@
 
 <p>История NumWorks (рисунок 2) вдохновляет, так как является примером гибкости подхода, демонстрируемой ST. Как только члены команды выбрали тип контроллера, они начали использовать оценочную плату 32F429IDISCOVERY для прототипирования. 2,4-дюймовый ЖК-экран и отладочный USB-порт мгновенно продвинули разработку, и проектировщики быстро поняли, что в конечном устройстве не потребуются ни SDRAM-память, ни встроенный ЖК-контроллер. Поэтому они смогли определить, от каких функций можно отказаться, и остановили свой выбор на STM32F412VG. Именно этот микроконтроллер используется в продаваемых сегодня калькуляторах. Это – пример, почему ST предлагает многофункциональные оценочные платы: инженерам проще реализовывать свои устройства, не используя избыточные функциональные узлы отладочной платы, чем добавлять нужные компоненты в ходе разработки.</p>
 
-<img src="/images/electronics/2018/2018-01-01-innovacionnyj-proekt-tonkogo-kalkulyatora/3.jpg" alt="Рисунок калькулятора 3">
+<img width="600" height="366" loading="lazy" decoding="async" src="/images/electronics/2018/2018-01-01-innovacionnyj-proekt-tonkogo-kalkulyatora/3.jpg" alt="Рисунок калькулятора 3">
 
 <p>Ромен Гоет также рассказал, что его компания решила использовать оригинальный подход и писать почти весь код с нуля. Поскольку операционная система калькулятора должна была работать очень эффективно, компании пришлось начать с самого начала, чтобы досконально изучить микроконтроллер и гарантировать наилучшую производительность. Это также упростило процесс публикации исходного кода, поскольку он целиком принадлежал разработчикам. Чтобы частично проверить свою работу, они использовали <strong>STM32CubeMX</strong>, однако, учитывая поставленные цели, инженерам пришлось в основном полагаться на справочное руководство ST. По словам Гоета, «При всей оригинальности нашего подхода, опыт оказался положительным: у ST — отличная документация, что было немаловажным фактором при выборе микроконтроллера STM32. Особо следует отметить, что контроллер работает именно так, как описано в документации, что не всегда можно сказать о продуктах конкурентов».</p>
 
@@ -142,7 +156,7 @@
 
 <p>Калькулятор NumWorks (рисунок 3) позволяет пользователям оценить вычислительную мощность микроконтроллера STM32 нетривиальным образом: компания предлагает набор ПО (SDK), чтобы разработчики могли начать писать свои приложения на C++ для этой новой платформы. Следовательно, помимо возможности получить доступ ко всему исходному коду, преподаватели и инженеры могут обогатить сообщество новыми инструментами, которые способны значительно дополнить опыт пользователей. Другими словами, привычный графический калькулятор, наконец, вписался в XXI век благодаря NumWorks, и компания ST рада быть частью этого движения.</p>
 
-<img src="/images/electronics/2018/2018-01-01-innovacionnyj-proekt-tonkogo-kalkulyatora/4.jpg" alt="Рисунок калькулятора 4">
+<img width="600" height="495" loading="lazy" decoding="async" src="/images/electronics/2018/2018-01-01-innovacionnyj-proekt-tonkogo-kalkulyatora/4.jpg" alt="Рисунок калькулятора 4">
 
 <p>Спасибо за внимание!</p>
 
@@ -220,9 +234,7 @@
 
 				
 				<a class="lb-item-header" href="/blog/electronics/2018-01-21-grafenovye-naushniki-sobrali-dengi-na-kickstarter.html">Графеновые наушники собрали более сотни тысяч долларов на Kickstarter</a>
-				<div class="lb-footer">
-					
-				</div>
+				<div class="lb-footer"><time class="date" datetime="2018-01-21">21/01/2018</time></div>
 				
 
 			</div>
@@ -234,9 +246,7 @@
 
 				
 				<a class="lb-item-header" href="/blog/it-news/2018-01-20-hyperx-predator-ddr4-rgb-s-sinhronizaciej-podsvetki.html">HyperX Predator DDR4 RGB с синхронизацией подсветки через ИК</a>
-				<div class="lb-footer">
-					
-				</div>
+				<div class="lb-footer"><time class="date" datetime="2018-01-20">20/01/2018</time></div>
 				
 
 			</div>
@@ -248,9 +258,7 @@
 
 				
 				<a class="lb-item-header" href="/blog/reviews/2018-01-21-obzor-igrovoj-klaviatury-asus-rog-claymore.html">Обзор яркой игровой клавиатуры ASUS ROG Claymore с механическими переключателями</a>
-				<div class="lb-footer">
-					
-				</div>
+				<div class="lb-footer"><time class="date" datetime="2018-01-21">21/01/2018</time></div>
 				
 
 			</div>
@@ -262,9 +270,7 @@
 
 				
 				<a class="lb-item-header" href="/blog/lifehacks/2018-01-20-10-udobnyh-reshenij-dlya-ispolzovaniya-plansheta.html">10 удобных решений, хитростей и приемов для использования планшета</a>
-				<div class="lb-footer">
-					
-				</div>
+				<div class="lb-footer"><time class="date" datetime="2018-01-20">20/01/2018</time></div>
 				
 
 			</div>
@@ -276,9 +282,7 @@
 
 				
 				<a class="lb-item-header" href="/blog/diy/2018-01-20-novaya-kamera-dlya-raspberry-pi.html">Вскоре выйдет новая камера для Raspberry Pi, которая будет стоить $25</a>
-				<div class="lb-footer">
-					
-				</div>
+				<div class="lb-footer"><time class="date" datetime="2018-01-20">20/01/2018</time></div>
 				
 
 			</div>
@@ -288,10 +292,6 @@
 
 </div>
 
-	</div>
-
-	<div class="aside-box">
-<div id="vk_groups"></div>
 	</div>
 
 	
@@ -304,8 +304,10 @@
 		</div>
 	</div>
 
+	</main>
+
 	<footer class="main-footer">
-		<div class="contaiter">
+		<div class="container">
 
 			<nav class="main-menu footer-menu">
 	<ul>
@@ -319,8 +321,7 @@
 			</nav>
 
 			<nav class="soc">
-				<ul>
-	<li><a href="#"><i class="fa fa-vk"></i></a></li>  <li><a href="#"><i class="fa fa-odnoklassniki"></i></a></li>  <li><a href="/rss.xml"><i class="fa fa-rss"></i></a></li>
+				<ul>  <li><a href="/rss.xml"><i class="fa fa-rss"></i></a></li>
 				</ul>
 			</nav>
 
@@ -328,21 +329,13 @@
 	</footer>
 	<footer class="bottom-footer">
 		<div class="container text-center">
-			<div class="footer-copy">2018 © <span class="logo-footer logo-litera">GeekTOP.ru</span></div>
+			<div class="footer-copy"><span data-current-year>2026</span> © <span class="logo-footer logo-litera">masterlidov.github.io</span></div>
 			<p>Копирование контента и размещение на других сайтах запрещено.</p>
 		</div>
 	</footer>
 
-	<script src="/js/scripts.min.js"></script>
-
-	
-
-	
-
-	<script type="text/javascript" src="//vk.com/js/api/openapi.js?152"></script>
-	<script type="text/javascript">
-	VK.Widgets.Group("vk_groups", {mode: 0, width: 'auto,', height: '300', color2: '202222', color3: '202222'}, you_id);
-	</script>
+	<script src="/js/scripts.min.js" defer></script>
+	<script src="/js/year.js" defer></script>
 
 </body>
 </html>

@@ -1,4 +1,6 @@
 User-agent: *
+Allow: /
 Disallow: /index.html
-Host: yousite.ru
-Sitemap: http://yousite.ru/sitemap.xml
+Disallow: /search.html
+
+Sitemap: https://masterlidov.github.io/sitemap.xml
