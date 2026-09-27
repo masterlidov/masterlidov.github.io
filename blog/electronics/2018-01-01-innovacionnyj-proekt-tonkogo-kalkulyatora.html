@@ -14,15 +14,15 @@
 	
 	<!-- Template Basic Images Start -->
 	<meta property="og:image" content="images/electronics/2018/2018-01-01-innovacionnyj-proekt-tonkogo-kalkulyatora/1.jpg">
-	<link rel="icon" href="img/favicon/favicon.ico">
-	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<link rel="icon" href="/img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon-180x180.png">
 	<!-- Template Basic Images End -->
 	
 	<!-- Custom Browsers Color Start -->
 	<meta name="theme-color" content="#202225">
 	<!-- Custom Browsers Color End -->
 
-	<link rel="stylesheet" href="css/main.min.css">
+	<link rel="stylesheet" href="/css/main.min.css">
 
 </head>
 
@@ -47,12 +47,12 @@
 	<div class="mobile-menu-button"><i class="fa fa-bars"></i> Меню</div>
 	<nav class="main-menu top-menu">
 <ul>
-	<li><a href="blog/electronics/">Электроника</a></li>
-	<li><a href="blog/it-news/">Новости IT</a></li>
-	<li><a href="blog/reviews/">Обзоры</a></li>
-	<li><a href="blog/lifehacks/">Лайфхаки</a></li>
-	<li><a href="blog/diy/">DIY</a></li>
-	<li><a href="about.html">О сайте</a></li>
+	<li><a href="/blog/electronics/">Электроника</a></li>
+	<li><a href="/blog/it-news/">Новости IT</a></li>
+	<li><a href="/blog/reviews/">Обзоры</a></li>
+	<li><a href="/blog/lifehacks/">Лайфхаки</a></li>
+	<li><a href="/blog/diy/">DIY</a></li>
+	<li><a href="/about.html">О сайте</a></li>
 </ul>
 	</nav>
 
@@ -67,7 +67,7 @@
 
 						<div class="page-header-meta">
 
-							<a href="blog/electronics" class="page-category-link">Электроника</a> <span class="date">01/01/2018</span>
+							<a href="/blog/electronics" class="page-category-link">Электроника</a> <span class="date">01/01/2018</span>
 
 							<h1>Инновационный проект тонкого графического калькулятора на базе STM32F4</h1>
 
@@ -103,7 +103,7 @@
 						<nav class="breadcrumbs">
 							<ul>
 								<li><a href="/">Главная</a></li>
-								<li><a href="blog/electronics">Электроника</a></li>
+								<li><a href="/blog/electronics">Электроника</a></li>
 								<li class="active">Инновационный проект тонкого графического калькулятора на базе STM32F4</li>
 							</ul>
 						</nav>
@@ -133,7 +133,7 @@ data-ad-format="auto"></ins>
 
 <p>В эпоху элегантных смартфонов традиционные калькуляторы выглядят как пережиток прошлого. Но данный калькулятор обладает ярким и современным дизайном, отвечающим всем современным трендам. Кроме того, компания раскрыла аппаратную реализацию, операционную систему, приложения и даже добавила интерпретатор языка Python (MicroPython). В результате с помощью этого современного устройства школьники как минимум будут решать проблемы, часто возникающие при изучении алгебры и арифметики, а самые продвинутые начнут изучать программирование и инженерные науки. Они даже смогут самостоятельно напечатать некоторые детали калькулятора на 3D-принтере благодаря внушительному перечню предоставляемой документации. В довершение всего, перед покупкой можно ознакомиться с внешним видом и работой калькулятора, посетив онлайн-симулятор NumWorks (рисунок 1).</p>
 
-<img src="images/electronics/2018/2018-01-01-innovacionnyj-proekt-tonkogo-kalkulyatora/2.jpg" alt="Рисунок калькулятора 1">
+<img src="/images/electronics/2018/2018-01-01-innovacionnyj-proekt-tonkogo-kalkulyatora/2.jpg" alt="Рисунок калькулятора 1">
 
 <h3>От идеи – к прототипу</h3>
 
@@ -145,7 +145,7 @@ data-ad-format="auto"></ins>
 
 <p>История NumWorks (рисунок 2) вдохновляет, так как является примером гибкости подхода, демонстрируемой ST. Как только члены команды выбрали тип контроллера, они начали использовать оценочную плату 32F429IDISCOVERY для прототипирования. 2,4-дюймовый ЖК-экран и отладочный USB-порт мгновенно продвинули разработку, и проектировщики быстро поняли, что в конечном устройстве не потребуются ни SDRAM-память, ни встроенный ЖК-контроллер. Поэтому они смогли определить, от каких функций можно отказаться, и остановили свой выбор на STM32F412VG. Именно этот микроконтроллер используется в продаваемых сегодня калькуляторах. Это – пример, почему ST предлагает многофункциональные оценочные платы: инженерам проще реализовывать свои устройства, не используя избыточные функциональные узлы отладочной платы, чем добавлять нужные компоненты в ходе разработки.</p>
 
-<img src="images/electronics/2018/2018-01-01-innovacionnyj-proekt-tonkogo-kalkulyatora/3.jpg" alt="Рисунок калькулятора 3">
+<img src="/images/electronics/2018/2018-01-01-innovacionnyj-proekt-tonkogo-kalkulyatora/3.jpg" alt="Рисунок калькулятора 3">
 
 <p>Ромен Гоет также рассказал, что его компания решила использовать оригинальный подход и писать почти весь код с нуля. Поскольку операционная система калькулятора должна была работать очень эффективно, компании пришлось начать с самого начала, чтобы досконально изучить микроконтроллер и гарантировать наилучшую производительность. Это также упростило процесс публикации исходного кода, поскольку он целиком принадлежал разработчикам. Чтобы частично проверить свою работу, они использовали <strong>STM32CubeMX</strong>, однако, учитывая поставленные цели, инженерам пришлось в основном полагаться на справочное руководство ST. По словам Гоета, «При всей оригинальности нашего подхода, опыт оказался положительным: у ST — отличная документация, что было немаловажным фактором при выборе микроконтроллера STM32. Особо следует отметить, что контроллер работает именно так, как описано в документации, что не всегда можно сказать о продуктах конкурентов».</p>
 
@@ -153,7 +153,7 @@ data-ad-format="auto"></ins>
 
 <p>Калькулятор NumWorks (рисунок 3) позволяет пользователям оценить вычислительную мощность микроконтроллера STM32 нетривиальным образом: компания предлагает набор ПО (SDK), чтобы разработчики могли начать писать свои приложения на C++ для этой новой платформы. Следовательно, помимо возможности получить доступ ко всему исходному коду, преподаватели и инженеры могут обогатить сообщество новыми инструментами, которые способны значительно дополнить опыт пользователей. Другими словами, привычный графический калькулятор, наконец, вписался в XXI век благодаря NumWorks, и компания ST рада быть частью этого движения.</p>
 
-<img src="images/electronics/2018/2018-01-01-innovacionnyj-proekt-tonkogo-kalkulyatora/4.jpg" alt="Рисунок калькулятора 4">
+<img src="/images/electronics/2018/2018-01-01-innovacionnyj-proekt-tonkogo-kalkulyatora/4.jpg" alt="Рисунок калькулятора 4">
 
 <p>Спасибо за внимание!</p>
 
@@ -266,7 +266,7 @@ data-ad-slot="xxx"></ins>
 	<div class="lb-list">
 
 		<div class="lb-item">
-			<a href="blog/electronics/" class="lb-catname">Электроника</a>
+			<a href="/blog/electronics/" class="lb-catname">Электроника</a>
 			<div class="lb-body">
 
 				
@@ -283,7 +283,7 @@ data-ad-slot="xxx"></ins>
 		</div>
 
 		<div class="lb-item">
-			<a href="blog/it-news/" class="lb-catname">Новости IT</a>
+			<a href="/blog/it-news/" class="lb-catname">Новости IT</a>
 			<div class="lb-body">
 
 				
@@ -300,7 +300,7 @@ data-ad-slot="xxx"></ins>
 		</div>
 
 		<div class="lb-item">
-			<a href="blog/reviews/" class="lb-catname">Обзоры</a>
+			<a href="/blog/reviews/" class="lb-catname">Обзоры</a>
 			<div class="lb-body">
 
 				
@@ -317,7 +317,7 @@ data-ad-slot="xxx"></ins>
 		</div>
 
 		<div class="lb-item">
-			<a href="blog/lifehacks/" class="lb-catname">Лайфхаки</a>
+			<a href="/blog/lifehacks/" class="lb-catname">Лайфхаки</a>
 			<div class="lb-body">
 
 				
@@ -334,7 +334,7 @@ data-ad-slot="xxx"></ins>
 		</div>
 
 		<div class="lb-item">
-			<a href="blog/diy/" class="lb-catname">DIY</a>
+			<a href="/blog/diy/" class="lb-catname">DIY</a>
 			<div class="lb-body">
 
 				
@@ -381,18 +381,18 @@ data-ad-slot="xxx"></ins>
 
 			<nav class="main-menu footer-menu">
 	<ul>
-	<li><a href="blog/electronics/">Электроника</a></li>
-	<li><a href="blog/it-news/">Новости IT</a></li>
-	<li><a href="blog/reviews/">Обзоры</a></li>
-	<li><a href="blog/lifehacks/">Лайфхаки</a></li>
-	<li><a href="blog/diy/">DIY</a></li>
-	<li><a href="about.html">О сайте</a></li>
+	<li><a href="/blog/electronics/">Электроника</a></li>
+	<li><a href="/blog/it-news/">Новости IT</a></li>
+	<li><a href="/blog/reviews/">Обзоры</a></li>
+	<li><a href="/blog/lifehacks/">Лайфхаки</a></li>
+	<li><a href="/blog/diy/">DIY</a></li>
+	<li><a href="/about.html">О сайте</a></li>
 </ul>
 			</nav>
 
 			<nav class="soc">
 				<ul>
-	<li><a href="#"><i class="fa fa-vk"></i></a></li> <li><a href="#"><i class="fa fa-facebook"></i></a></li> <li><a href="#"><i class="fa fa-odnoklassniki"></i></a></li> <li><a href="#"><i class="fa fa-instagram"></i></a></li> <li><a href="rss.xml"><i class="fa fa-rss"></i></a></li>
+	<li><a href="#"><i class="fa fa-vk"></i></a></li> <li><a href="#"><i class="fa fa-facebook"></i></a></li> <li><a href="#"><i class="fa fa-odnoklassniki"></i></a></li> <li><a href="#"><i class="fa fa-instagram"></i></a></li> <li><a href="/rss.xml"><i class="fa fa-rss"></i></a></li>
 				</ul>
 			</nav>
 
@@ -405,7 +405,7 @@ data-ad-slot="xxx"></ins>
 		</div>
 	</footer>
 
-	<script src="js/scripts.min.js"></script>
+	<script src="/js/scripts.min.js"></script>
 
 	<script id="dsq-count-scr" src="//EXAMPLE.disqus.com/count.js" async></script>
 
